@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        *, ::before, ::after {
+            box-sizing: border-box;
+        }
+        :root {
+            --primary-color: #22254b;
+            --secondary-color: #373b69;
+        }
+        body {
+            background-color: #22254b;
+            margin: 0;
+            padding: 0;
+        }
+            .navbar {
+                display: flex;
+                width: 100%;
+                background-color: var(--primary-color);
+                margin: 0;
+                padding: 1em 1.5em;
+            }
+
+            .nav-right {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                list-style: none;
+                gap: 1em;
+                margin: 0;
+            }
+
+            .nav-link {
+                font-size: 1.5rem;
+            }
+
+            a {
+                color: white;
+            }
+
+            .bg-img {
+                height: 100%;
+                margin: 0;
+            }
+            
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-right">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="movies.html">Movie</a></li>
+            <li><a class="nav-link" href="review.html">Review</a></li>
+            </div>
+    </nav>
+    <figure class="bg-img">
+        <img id= 'imgMovie' src="https://images8.alphacoders.com/106/thumb-1920-1065658.jpg" alt="Movie" style="min-width: 100%; max-width: 100%;">
+    </figure>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Review</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./review.css">
+    <style>
+      body{
+        background-color: #22254b;
+      }
+    </style>
+</head>
+<body>
+    <!-- <script src="https://use.fontawesome.com/a6f0361695.js"></script> -->
+    <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+
+    <h2 id="fh2">WE APPRECIATE YOUR REVIEW!</h2>
+    <h6 id="fh6">Your review will help us to improve the movie ratting.</h6>
+    
+    
+    <form id="feedback" action="">
+      <div class="pinfo">Your personal info</div>
+      
+    <div class="form-group">
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+      <input  name="name" placeholder="First name     Last name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+        <input name="email" type="email" class="form-control" placeholder="example@mail.com">
+         </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-film"></i></span>
+      <input  name="URL" placeholder="Movie Name" class="form-control"  type="text">
+        </div>
+      </div>
+    </div>
+    
+     <div class="pinfo">Rate the Movie.</div>
+      
+    
+    <div class="form-group">
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-star"></i></span>
+       <select class="form-control" id="rate">
+          <option value="1star">1</option>
+          <option value="2stars">2</option>
+          <option value="3stars">3</option>
+          <option value="4stars">4</option>
+          <option value="5stars">5</option>
+        </select>
+        </div>
+      </div>
+    </div>
+    
+     <div class="pinfo">Write your Review.</div>
+      
+    
+    <div class="form-group">
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+      <textarea class="form-control" id="review" rows="3"></textarea>
+     
+        </div>
+      </div>
+    </div>
+    
+     <button type="submit" class="btn btn-primary">Submit</button>
+    
+    
+    </form>
+</body>
+</html>
